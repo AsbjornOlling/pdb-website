@@ -1,0 +1,34 @@
+# Site settings
+title: Hector
+email: asbjorn@polydecibel.audio
+url: https://polydecibel.audio
+description: "Form. Quality. Volume."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#f9f8f5'
+  links: '#49483e'
+  font: '#272822'
+  navbarfont: '#f9f8f5'
+  highlight: '#272822'
+  highlight2: '#49483e'
+
+# Footer settings
+footer: Polydecibel Audio I/S
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url:
+  - title: instagram
+    url:
+  - title: twitter
+    url:
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Snipcart
+collections:
+        - products

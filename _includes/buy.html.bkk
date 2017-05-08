@@ -1,0 +1,17 @@
+    <!-- Buy Section -->
+    <section id="buy" class="container content-section text-center">
+        <div class="row">
+            <div class="product">
+                <button class="snipcart-add-item"
+                    data-item-name="Hector"
+                    data-item-id="1"
+                    data-item-image="/img/hexagon.png"
+                    data-item-url="https://polydecibel.audio/#hector"
+                    data-item-price="9999999999999999.99"
+		    data-item-custom1-name="Finish"
+		    data-item-custom1-options="Light birch | Dark birch | Black">
+			Buy Hector
+                </button>
+            </div>
+        </div>
+    </section>
