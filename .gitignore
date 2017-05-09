@@ -1,3 +1,4 @@
 #ignore the snipcart html file, as it contains our API key
 */snipcart.html
 _site/
+*.swp
