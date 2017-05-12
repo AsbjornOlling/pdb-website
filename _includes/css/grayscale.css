@@ -36,6 +36,7 @@ hb {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    font-size: 1vw;
     letter-spacing: 1px;
     color: {{ site.color.font }}
 }
@@ -45,7 +46,7 @@ hl {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
-    font-size: 4vw;
+    font-size: 1vw;
     letter-spacing: 1px;
     color: {{ site.color.font }}
 }
