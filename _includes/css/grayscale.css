@@ -18,6 +18,12 @@ html {
     height: 100%;
 }
 
+@media(max-width:767px){
+	html {
+		overflow-x: hidden;
+	}
+}
+
 h1,
 h2,
 h3,
@@ -200,7 +206,7 @@ a:focus {
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .intro .intro-body .brand-heading {
@@ -224,6 +230,17 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
+}
+
+@media(max-width:767px){
+	.intro{
+    background: url(/img/intro-bg-tall.jpg) no-repeat center scroll;
+		height: 100vh;
+		width: auto;
+		min-width: 100vw;
+		display: block;
+		padding: 0px;
+	}
 }
 
 .btn-circle {
