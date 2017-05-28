@@ -18,9 +18,10 @@ html {
     height: 100%;
 }
 
-@media(max-width:767px){
+/* this doesn't quite work */
+@media (min-width: 100px) and (max-width:767px){
 	html {
-		overflow-x: hidden;
+		overflow-x: hidden !important;
 	}
 }
 
