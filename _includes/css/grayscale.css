@@ -238,8 +238,11 @@ a:focus {
 		height: 100vh;
 		width: auto;
 		min-width: 100vw;
-		display: block;
 		padding: 0px;
+	}
+
+	.intro .intro-body {
+		display: table-cell;
 	}
 }
 
