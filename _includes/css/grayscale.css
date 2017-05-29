@@ -235,7 +235,7 @@ a:focus {
 
 @media(max-width:767px){
 	.intro{
-    background: url(/img/intro-bg-tall.jpg) no-repeat center scroll;
+    background: url(/img/intro-bg-tall.small.jpg) no-repeat center scroll;
 		height: 100vh;
 		width: auto;
 		min-width: 100vw;
